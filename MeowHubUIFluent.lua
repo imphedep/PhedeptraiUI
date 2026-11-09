@@ -2198,7 +2198,7 @@ function Library:CreateWindow(cfg)
 		if v == false and self._hinted ~= true then
 			self._hinted = true
 			Library:Notify({
-				Title = "TopiUI",
+				Title = "MeowUI",
 				Content = "Nhấn " .. KeyName(self.MinimizeKey) .. " hoặc bấm logo để ẩn/hiện UI.",
 				Duration = 5,
 			})
